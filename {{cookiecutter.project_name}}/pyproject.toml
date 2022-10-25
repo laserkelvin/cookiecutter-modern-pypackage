@@ -30,9 +30,6 @@ classifiers=[
     "Programming Language :: Python :: 3.10",
 ]
 requires-python = ">=3.7"
-dependencies = [
-	"python>=3.7"
-]
 
 [project.optional-dependencies]
 dev = [
