@@ -34,6 +34,16 @@
 
 TODO
 
+## Developer notes
+
+### Pre-commit hooks
+
+The pre-commit pipeline comprises `isort`, `black`, and `commitizen` for sorting, style, and version bumping and changelog generation.
+
+For `commitizen` to work, you will need to also run `
+
+pre-commit install --hook-type commit-msg --hook-type pre-push`
+
 ## Credits
 
 This package was created with [Cookiecutter][cookiecutter] and the [fedejaure/cookiecutter-modern-pypackage][cookiecutter-modern-pypackage] project template.
