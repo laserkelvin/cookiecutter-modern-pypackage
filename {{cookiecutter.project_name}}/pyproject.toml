@@ -59,7 +59,7 @@ where = ["src"]
 
 [tool.setuptools.dynamic]
 readme = {file = ["README.md"]}
-version = {attr = "{{ cookiecutter.project_name }}.__version__"}
+version = {attr = "{{ cookiecutter.project_slug }}.__version__"}
 
 [tool.coverage.run]
 branch = true
